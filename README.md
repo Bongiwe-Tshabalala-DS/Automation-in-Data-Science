@@ -73,7 +73,7 @@ Configure and generate a **standalone, reproducible `.py` script** with options 
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/data-explorer-cleaner.git
+git clone https://github.com/Bongiwe-Tshabalala-DS/data-explorer-cleaner.git
 cd data-explorer-cleaner
 ```
 
