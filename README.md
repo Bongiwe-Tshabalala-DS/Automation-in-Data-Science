@@ -80,13 +80,17 @@ cd data-explorer-cleaner
 ### 2. Install core dependencies
 ```bash
 pip install pandas numpy matplotlib seaborn openpyxl
+pip install -U ipywidgets
 ```
 
-### 3. Install AI provider(s) — pick at least one
+#### 3. Install AI provider(s)
 ```bash
 pip install groq                  # Groq
 pip install google-generativeai   # Google Gemini
 pip install cohere                # Cohere
+pip install scikit-learn       # RandomForest, LinearRegression, KMeans
+pip install autogluon          # AutoGluon AutoML
+pip install flaml              # FLAML AutoML
 ```
 
 ### 4. Run the app
@@ -114,15 +118,6 @@ data-explorer-cleaner/
 
 ---
 
-## 🛠️ Optional: ML & AutoML Dependencies
-
-These are only needed if you use the Script Generator's modelling options:
-
-```bash
-pip install scikit-learn       # RandomForest, LinearRegression, KMeans
-pip install autogluon          # AutoGluon AutoML
-pip install flaml              # FLAML AutoML
-```
 
 ---
 
