@@ -91,7 +91,7 @@ pip install cohere                # Cohere
 
 ### 4. Run the app
 ```bash
-python main.py
+python main_llm.py
 ```
 
 ---
